@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 170666ee30757d24888777b247eabd91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precio: 0
+  precio: 8
   moneyManager: {fileID: 0}
 --- !u!65 &8699628012934244599
 BoxCollider:
