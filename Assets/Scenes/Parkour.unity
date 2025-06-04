@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1868,6 +1868,25 @@ Transform:
   m_Father: {fileID: 1607654303}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &973493452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 317057466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &973493453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973493452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8381731be996f3546ad8d914f098cf81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 100
 --- !u!1 &1130484200
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,7 +3473,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pincho
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4863715532426653835, guid: a67bc21a9f8ec024692f2bcb9f78d87e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a67bc21a9f8ec024692f2bcb9f78d87e, type: 3}
 --- !u!1001 &3524124462564901828
 PrefabInstance:
@@ -3463,6 +3483,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185059114}
     m_Modifications:
+    - target: {fileID: 3419926169856444268, guid: 037265b8927e2774eab9a20e9e555d67,
+        type: 3}
+      propertyPath: precio
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3452706783787111395, guid: 037265b8927e2774eab9a20e9e555d67,
         type: 3}
       propertyPath: m_Convex
