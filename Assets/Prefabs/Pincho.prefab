@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8719926936030688916}
   - component: {fileID: 8719926936027821748}
   - component: {fileID: 8719926936028918900}
-  - component: {fileID: 4863715532426653835}
   - component: {fileID: 4973118438855089118}
+  - component: {fileID: 2766633505269926180}
   m_Layer: 0
   m_Name: Pincho
   m_TagString: Untagged
@@ -79,18 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4863715532426653835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8719926936031177396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54d2f66d97b793649983e19140561085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &4973118438855089118
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -104,3 +92,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 3.3227513
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2766633505269926180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8719926936031177396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fe9aca404095443bd4ca71d9c66a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePoints: 5
+  healthManager: {fileID: 0}
