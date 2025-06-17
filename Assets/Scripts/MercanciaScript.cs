@@ -17,6 +17,12 @@ public class MercanciaScript : MonoBehaviour
         Debug.Log(collision.gameObject);
         if (collision.gameObject.name == "Player")
         {
+            if (gameObject.name == "GoldenEgg")
+            {
+                moneyManager.UpdateMoney(+precio);
+                Destroy(gameObject);
+                return;
+            }
             bool leAlcanza = moneyManager.UpdateMoney(-precio);
             if (leAlcanza)
             {
